@@ -205,3 +205,26 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+
+# ── Secrets ──────────────────────────────────────────
+.env
+
+# ── MedRAG Data (too large for GitHub) ───────────────
+data/raw/
+data/parsed/
+models/
+
+# ── Vector Store ─────────────────────────────────────
+chroma_db/
+
+# ── BM25 Index ────────────────────────────────────────
+*.pkl
+
+# ── Eval Outputs ──────────────────────────────────────
+eval/reports/
+eval/results_*.csv
+
+# ── Logs ──────────────────────────────────────────────
+logs/
+*.log
