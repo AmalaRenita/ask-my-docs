@@ -213,6 +213,7 @@ __marimo__/
 # ── MedRAG Data (too large for GitHub) ───────────────
 data/raw/
 data/parsed/
+data/sampled
 models/
 
 # ── Vector Store ─────────────────────────────────────
