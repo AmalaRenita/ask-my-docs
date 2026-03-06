@@ -217,6 +217,7 @@ data/sampled
 models/
 
 # ── Vector Store ─────────────────────────────────────
+chromadb/
 chroma_db/
 
 # ── BM25 Index ────────────────────────────────────────
